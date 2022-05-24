@@ -11,9 +11,9 @@ class Button extends React.Component {
 
   render() {
     return (
-      <div id={this.id} className={this.class}>
+      <button type="button" id={this.id} className={this.className}>
         {this.text}
-      </div>
+      </button>
     );
   }
 }
