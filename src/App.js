@@ -9,7 +9,7 @@ class App extends React.Component {
   }
 
   render() {
-    return <Calculator />;
+    return <Calculator previous="" operand="" current="0" solved={false} />;
   }
 }
 
