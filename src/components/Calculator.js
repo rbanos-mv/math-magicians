@@ -9,29 +9,29 @@ class Calculator extends React.Component {
       <div className="grid-container">
         <Result id="result" text="0" />
 
-        <Button id="all-clear" class="digit" text="AC" />
-        <Button id="plus-minus" class="digit" text="±" />
-        <Button id="percent" class="digit" text="%" />
-        <Button id="division" class="operation" text="÷" />
+        <Button id="all-clear" className="digit" text="AC" />
+        <Button id="plus-minus" className="digit" text="±" />
+        <Button id="percent" className="digit" text="%" />
+        <Button id="division" className="operation" text="÷" />
 
-        <Button id="n7" class="digit" text="7" />
-        <Button id="n8" class="digit" text="8" />
-        <Button id="n9" class="digit" text="9" />
-        <Button id="multiplication" class="operation" text="×" />
+        <Button id="n7" className="digit" text="7" />
+        <Button id="n8" className="digit" text="8" />
+        <Button id="n9" className="digit" text="9" />
+        <Button id="multiplication" className="operation" text="×" />
 
-        <Button id="n4" class="digit" text="4" />
-        <Button id="n5" class="digit" text="5" />
-        <Button id="n6" class="digit" text="6" />
-        <Button id="subtraction" class="operation" text="-" />
+        <Button id="n4" className="digit" text="4" />
+        <Button id="n5" className="digit" text="5" />
+        <Button id="n6" className="digit" text="6" />
+        <Button id="subtraction" className="operation" text="-" />
 
-        <Button id="n1" class="digit" text="1" />
-        <Button id="n2" class="digit" text="2" />
-        <Button id="n3" class="digit" text="3" />
-        <Button id="addition" class="operation" text="+" />
+        <Button id="n1" className="digit" text="1" />
+        <Button id="n2" className="digit" text="2" />
+        <Button id="n3" className="digit" text="3" />
+        <Button id="addition" className="operation" text="+" />
 
-        <Button id="n0" class="digit" text="0" />
-        <Button id="point" class="digit" text="." />
-        <Button id="equal" class="operation" text="=" />
+        <Button id="n0" className="digit" text="0" />
+        <Button id="point" className="digit" text="." />
+        <Button id="equal" className="operation" text="=" />
       </div>
     );
   }

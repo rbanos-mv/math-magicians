@@ -5,7 +5,7 @@ class Button extends React.Component {
   constructor(props) {
     super(props);
     this.id = props.id;
-    this.class = props.class;
+    this.className = props.className;
     this.text = props.text;
   }
 
@@ -20,7 +20,7 @@ class Button extends React.Component {
 
 Button.propTypes = {
   id: PropTypes.string.isRequired,
-  class: PropTypes.string.isRequired,
+  className: PropTypes.string.isRequired,
   text: PropTypes.string.isRequired,
 };
 
