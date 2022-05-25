@@ -4,24 +4,30 @@ import React from 'react';
 class Button extends React.Component {
   constructor(props) {
     super(props);
-    this.id = props.id;
-    this.class = props.class;
-    this.text = props.text;
+    this.state = {};
+    this.buttonClick = this.buttonClick.bind(this);
+  }
+
+  buttonClick() {
+    const { buttonClick, text } = this.props;
+    buttonClick(text);
   }
 
   render() {
+    const { id, className, text } = this.props;
     return (
-      <div id={this.id} className={this.class}>
-        {this.text}
-      </div>
+      <button type="button" id={id} className={className} onClick={this.buttonClick}>
+        {text}
+      </button>
     );
   }
 }
 
 Button.propTypes = {
   id: PropTypes.string.isRequired,
-  class: PropTypes.string.isRequired,
+  className: PropTypes.string.isRequired,
   text: PropTypes.string.isRequired,
+  buttonClick: PropTypes.func.isRequired,
 };
 
 export default Button;

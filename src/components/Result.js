@@ -4,18 +4,36 @@ import React from 'react';
 class Result extends React.Component {
   constructor(props) {
     super(props);
-    this.id = props.id;
-    this.text = props.text;
+    this.state = {};
   }
 
   render() {
-    return <div id={this.id}>{this.text}</div>;
+    const {
+      id, previous, current, operand,
+    } = this.props;
+    return (
+      <div id={id}>
+        <span className="previous">{previous}</span>
+        {' '}
+        <span className="operand">{operand}</span>
+        {' '}
+        <span className="current">{current}</span>
+      </div>
+    );
   }
 }
 
+Result.defaultProps = {
+  previous: '',
+  operand: '',
+  current: '0',
+};
+
 Result.propTypes = {
   id: PropTypes.string.isRequired,
-  text: PropTypes.string.isRequired,
+  previous: PropTypes.string,
+  operand: PropTypes.string,
+  current: PropTypes.string,
 };
 
 export default Result;
