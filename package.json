@@ -1,4 +1,5 @@
 {
+  "homepage": "https://rbanos-mv.github.io/math-magicians",
   "name": "math-magicians",
   "version": "0.1.0",
   "private": true,
@@ -19,7 +20,7 @@
     "eject": "react-scripts eject",
     "start": "react-scripts start",
     "test": "react-scripts test",
-    "deploy": "gh-pages -d dist",
+    "deploy": "npm run build && echo rbanos-mv.github.io > ./build/CNAME && gh-pages -d build",
     "eslint": "npx eslint . --fix ",
     "stylelint": "npx stylelint **/*.{css,scss} --fix"
   },
