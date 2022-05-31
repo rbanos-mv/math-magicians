@@ -13,9 +13,11 @@ button,
 
 #root {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: flex-start;
   align-items: center;
   height: 100vh;
+  padding: 0 60px;
 }
 
 .digit,
@@ -144,4 +146,44 @@ button,
   align-items: center;
   justify-content: flex-end;
   padding-right: 16px;
+}
+
+h2 {
+  font-size: 50px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px 60px 60px;
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.link {
+  color: black;
+  padding: 0 10px;
+  text-decoration: none;
+}
+
+.link:not(:last-child) {
+  border-right: 3px solid black;
+}
+
+.quote {
+  font-size: 30px;
+  width: 75%;
+}
+
+.calcpage {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
 }
