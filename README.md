@@ -56,9 +56,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Quotes borrowed from [60+ Brilliant Math Quotes Every Teacher Needs to Read](https://www.prodigygame.com/main-en/blog/math-quotes/)
 
 ## 📝 License
 
