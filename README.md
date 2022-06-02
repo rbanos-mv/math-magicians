@@ -1,8 +1,3 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
-
-> Hello! I am a software developer! I can help you build a product, feature or website. Tak a look of my works.
-> If you like what you see and have a project you need coded, don’t hesitate and contact me.
-
 # Math magicians
 
 "Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to: (1) Make simple calculations. (2) Read a random math-related quote.
@@ -11,9 +6,11 @@
 
 - ReactJS
 
-## Live Demo (if available)
+## Live Demos
 
-[Live Demo Link](https://rbanos-mv.github.io/math-magicians/)
+- [GitHub Live Demo Link](https://rbanos-mv.github.io/math-magicians/)
+- [Netlify Live Demo Link](https://chic-crostata-25232b.netlify.app/)
+- [Heroku Live Demo Link](https://math-magicians-rbanos.herokuapp.com/)
 
 ### Getting Started
 
