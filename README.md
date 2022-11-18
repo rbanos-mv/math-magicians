@@ -12,7 +12,6 @@
 
 - [GitHub Live Demo Link](https://rbanos-mv.github.io/math-magicians/)
 - [Netlify Live Demo Link](https://chic-crostata-25232b.netlify.app/)
-- [Heroku Live Demo Link](https://math-magicians-rbanos.herokuapp.com/)
 
 ### Getting Started
 
